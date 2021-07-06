@@ -1,0 +1,122 @@
+#arrow {
+    float: left;
+}
+#ribbon {
+    margin: 55px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+p {
+    color: aliceblue;
+    padding: 10px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 50px;
+}
+
+#red {
+    background-color: red;
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    float: left;
+    margin: 25px;
+    margin-top: 55px;
+}
+
+#red-arrow {
+   margin-left: 74px;
+   position: relative;
+   top: 76px;
+   
+
+
+}
+
+#orange {
+    background-color: orange;
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    float: left;
+    margin: 25px;
+    margin-top: 0px;
+}
+
+#orange-arrow {
+    margin-left: 200px;
+    position: relative;
+    top: 22px;
+}
+
+#yellow {
+    background-color: yellow;
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    float: left;
+    margin: 25px;
+    margin-top: -55px;
+}
+
+#yellow-arrow {
+    margin-left: 325px;
+    position: relative;
+    top: -32px;
+}
+
+#green {
+    background-color: green;
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    margin: 25px;
+    margin-top: -10px;
+    float: left;
+    clear: both;
+}
+
+#green-arrow {
+    margin-left: 75px;
+    position: relative;
+    top: 14px;
+    clear: both;
+}
+
+#blue {
+    background-color: blue;
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    margin: 25px;
+    float: left;
+    margin-top: -65px;
+}
+
+#blue-arrow {
+    margin-left: 200px;
+    position: relative;
+    top: -40px;
+}
+
+#purple {
+    background-color: purple;
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    margin: 25px;
+    float: right;
+    margin-top: -120px;
+    margin-right: 775px;
+}
+
+#purple-arrow {
+    margin-left: 325px;
+    position: relative;
+    top: -96px;
+}

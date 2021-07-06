@@ -1,0 +1,43 @@
+h1 {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+
+h2 {
+    color: #0058FF;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #E2ECFF;
+    background-image: url("https://images.unsplash.com/photo-1625228213657-e8994b4d4c48?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    list-style: georgian;
+}
+
+tr {
+    padding: 35px;
+}
+
+td {
+    padding: 20px;
+    font-size: xx-large;
+}
+
+a {
+    color: #0058FF;
+}
+
+a:hover{
+    color: aqua;  
+}
+
+a:active {
+    color: #FF0000;
+}

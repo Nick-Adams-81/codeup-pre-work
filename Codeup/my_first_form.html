@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My First HTML Form</title>
+</head>
+
+<body>
+
+    <form method="POST" action="http://request-inspector.glitch.me/">
+        <h2>User Login</h2>
+        <div>
+            <label for="username" placeholder="Name">Username</label>
+            <input id="username" name="username" type="text">
+        </div>
+        <div>
+            <label for="password" placeholder="Password">Password</label>
+            <input id="password" name="password" type="password">
+        </div>
+        <div>
+            <button type="submit" name="submit" value="Login">Submit</button>
+        </div>
+    </form>
+
+    <form method="POST" action="http://request-inspector.glitch.me/">
+        <h2>Compose an Email</h2>
+        <div>
+            <div>
+                <label for="to" placeholder="to" type="text">To</label>
+                <input id="to" name="to" type="text">
+            </div>
+            <div>
+                <label for="from" placeholder="email">From</label>
+                <input id="from" name="from" type="text">
+            </div>
+            <div>
+                <label for="subject" placeholder="subject">Subject</label>
+                <input id="subject" name="Subject" type="text">
+            </div>
+            <div>
+                <label for="body" placeholder="body">Email Body</label>
+                <input id="body" name="body" type="text">
+            </div>
+            <div>
+                <button type="submit" name="send" value="Send">Send</button>
+            </div>
+            <div>
+                <input type="checkbox" id="save_copy" name="save" value="yes" checked>
+                <label for="save_copy">Save a copy of email?</label>
+            </div>
+        </div>
+    </form>
+
+    <h2>Multiple choice test</h2>
+    <form method="POST" action="http://request-inspector.glitch.me/">
+        <div>
+            <h4>Question 1</h4>
+            <p>Who has the best coding bootcamp?</p>
+            <div>
+                <label>
+                    <input type="radio" name="Q-1" value="codeup">
+                    Codeup
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    <input type="radio" name="Q-1" value="coding dojo">
+                    Coding dojo
+                </label>
+            </div>
+        </div>
+
+        <div>
+            <h4>Question 2</h4>
+            <p>Where is the best coding bootcamp located?</p>
+            <div>
+                <label>
+                    <input type="radio" name="Q-2" value="San Antonio">
+                    San Antonio
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="Q-2" value="Dallas">
+                    Dallas
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="Q-2" value="Both">
+                    Both!
+                </label>
+            </div>
+        </div>
+
+        <div>
+            <h4>Question 3</h4>
+            <form method="POST" action="http://request-inspector.glitch.me/">
+                <p>What is your favorite coding language?</p>
+                <select id="choices" name="choices">
+                    <option>JavaScript</option>
+                    <option>C#</option>
+                    <option>Python</option>
+                    <option>Java</option>
+                </select>
+                <button type="submit" name="submit" value="submit">Submit</button>
+            </form>
+        </div>
+
+    </form>
+
+    <h2>Select Testing</h2>
+    <form method="POST" action="http://request-inspector.glitch.me/">
+        <p>do you like coding?</p>
+        <select id="yes-or-no" name="yes-or-no">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+        <button type="submit" name="submit" value="submit">Submit</button>
+
+
+    </form>
+
+
+
+
+
+</body>
+
+
+
+
+</html>
